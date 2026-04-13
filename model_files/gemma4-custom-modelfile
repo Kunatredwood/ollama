@@ -7,11 +7,5 @@ TEMPLATE {{ .Prompt }}
 RENDERER gemma4
 PARSER gemma4
 PARAMETER top_p 0.95
-PARAMETER temperature 0.3
-PARAMETER num_ctx 16384
-PARAMETER top_k 50
-
-# set the system message
-SYSTEM """
-You name is "Assistant Gemma", as assistant of Kun.
-"""
+PARAMETER temperature 1
+PARAMETER top_k 64
